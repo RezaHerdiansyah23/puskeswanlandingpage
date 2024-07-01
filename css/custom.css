@@ -135,6 +135,7 @@
     color: #0056b3;
     font-size: 2em;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .vision-mission h4 {
@@ -162,12 +163,14 @@
     color: #0056b3;
     font-size: 2em;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .tupoksi h4 {
     color: #0056b3;
     font-size: 1.5em;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .tupoksi h5 {
@@ -238,4 +241,32 @@
 .petugas-card-content ul {
     margin-left: 20px;
     list-style-type: disc;
+}
+
+.organigram {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.organigram h3 {
+    text-align: center;
+    color: #0056b3;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.dasar-hukum {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.dasar-hukum h3 {
+    color: #0056b3;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
 }
