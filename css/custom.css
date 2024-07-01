@@ -56,14 +56,14 @@
     max-height: 1.2em;
 }
 
-.card-text .collapsed {
+.card-text.collapsed {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     max-height: 1.2em;
 }
 
-.card.expanded .card-text {
+.card-text.expanded {
     white-space: normal;
     overflow: visible;
     text-overflow: clip;
@@ -122,4 +122,120 @@
     display: block;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.vision-mission {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.vision-mission h3 {
+    color: #0056b3;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.vision-mission h4 {
+    color: #0056b3;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.vision-mission p, .vision-mission ol {
+    margin-left: 20px;
+}
+
+.vision-mission ol {
+    list-style-type: decimal;
+}
+
+.tupoksi {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.tupoksi h3 {
+    color: #0056b3;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.tupoksi h4 {
+    color: #0056b3;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.tupoksi h5 {
+    color: #333;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.tupoksi p, .tupoksi ol {
+    margin-left: 20px;
+}
+
+.tupoksi ol {
+    list-style-type: decimal;
+}
+
+.petugas {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.petugas h3 {
+    color: #0056b3;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.petugas-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.petugas-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.petugas-card:hover {
+    transform: translateY(-10px);
+}
+
+.petugas-card-content h4 {
+    color: #0056b3;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.petugas-card-content p {
+    color: #333;
+    margin: 5px 0;
+}
+
+.petugas-card-content h5 {
+    color: #0056b3;
+    margin-top: 10px;
+}
+
+.petugas-card-content ul {
+    margin-left: 20px;
+    list-style-type: disc;
 }

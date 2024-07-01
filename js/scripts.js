@@ -47,28 +47,34 @@
                 }
             });
         });
-
+    });
+    document.addEventListener('DOMContentLoaded', event => {
         // Fungsi untuk toggle teks pada kartu
         function toggleCard(card) {
             var content = card.querySelector('.card-text');
             var toggleButton = card.querySelector('.toggle-button');
-
+    
             if (content.classList.contains('collapsed')) {
                 // Jika teks sedang singkat, tampilkan semua teks
                 content.classList.remove('collapsed');
+                content.classList.add('expanded');
                 toggleButton.textContent = 'Tutup';
             } else {
                 // Jika teks sudah penuh, kembalikan ke singkat
+                content.classList.remove('expanded');
                 content.classList.add('collapsed');
                 toggleButton.textContent = 'Lihat Selengkapnya';
             }
         }
-
-        // Event listener untuk memanggil fungsi toggle saat kartu diklik
-        var cards = document.querySelectorAll('.card');
-        cards.forEach(function (card) {
-            card.addEventListener('click', function () {
-                toggleCard(card);
+    
+        // Event listener untuk memanggil fungsi toggle saat tombol diklik
+        var buttons = document.querySelectorAll('.toggle-button');
+        buttons.forEach(function (button) {
+            button.addEventListener('click', function (event) {
+                // Mencegah event bubbling
+                event.stopPropagation();
+                // Panggil fungsi toggleCard dengan elemen parent dari button
+                toggleCard(button.parentNode.parentNode);
             });
         });
-    });
+    }); 
