@@ -1,7 +1,6 @@
 .card {
     width: 100%;
     max-width: 434px;
-    height: 455px;
     background: rgb(255, 255, 255);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(19.5px);
@@ -10,7 +9,8 @@
     border: 1px solid rgba(255, 255, 255, 0.18);
     overflow: hidden;
     margin-bottom: 20px;
-    cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-container {
@@ -22,7 +22,7 @@
 
 .card-img-container {
     width: 100%;
-    height: 70%;
+    height: 200px;
     overflow: hidden;
 }
 
@@ -34,10 +34,7 @@
 
 .card-content {
     padding: 16px;
-    height: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-grow: 1;
 }
 
 .card-title {
@@ -68,6 +65,27 @@
     overflow: visible;
     text-overflow: clip;
     max-height: none;
+}
+
+.card-footer {
+    padding: 16px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.toggle-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+    background-color: #0056b3;
 }
 
 .vision, .mission {
