@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #007bff;
+    background-color: #ffc800;
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -30,8 +30,8 @@ section {
 }
 
 h2 {
-    color: #007bff;
-    border-bottom: 2px solid #007bff;
+    color: black;
+    border-bottom: 2px solid #ffc800;
     padding-bottom: 0.5em;
 }
 
@@ -44,7 +44,7 @@ ol li, ul li {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #ffc800;
     color: white;
     border: none;
     padding: 0.5em 1em;
@@ -59,7 +59,7 @@ button:hover {
 }
 
 footer {
-    background-color: #007bff;
+    background-color: #ffc800;
     color: white;
     text-align: center;
     padding: 1em 0;
