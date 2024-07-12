@@ -34,9 +34,10 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #ffc800;
+  --bs-primary: #157347;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
+  --bs--greenbk: #157347;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc800;
   --bs-danger: #dc3545;
@@ -62,7 +63,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #f5f5f5;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -2846,8 +2847,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #ffc800;
-  --bs-btn-border-color: #ffc800;
+  --bs-btn-bg: #157347;
+  --bs-btn-border-color: #157347;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #d9aa00;
   --bs-btn-hover-border-color: #cca000;
@@ -2857,8 +2858,8 @@ textarea.form-control-lg {
   --bs-btn-active-border-color: #bf9600;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #ffc800;
-  --bs-btn-disabled-border-color: #ffc800;
+  --bs-btn-disabled-bg: #157347;
+  --bs-btn-disabled-border-color: #157347;
 }
 
 .btn-secondary {
@@ -8097,7 +8098,7 @@ img {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #8fab9e !important;
 }
 
 .text-black-50 {
@@ -10845,11 +10846,14 @@ p {
 
 .page-section {
   padding: 6rem 0;
+
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #157347;
+
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
@@ -10857,6 +10861,7 @@ p {
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
+  color: #157347;
 }
 
 @media (min-width: 768px) {
@@ -10884,7 +10889,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #fff;
+  background-color: #f5f5f5;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10894,7 +10899,7 @@ p {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #ffc800;
+  color: #f5f5f5;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   letter-spacing: 0.0625em;
@@ -10932,7 +10937,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #fff;
+    background-color: #f5f5f5;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10969,7 +10974,7 @@ header.masthead .masthead-subheading {
   line-height: 1.5rem;
   margin-bottom: 25px;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  color: #ffc800;
+  color: #157347;
   width: 100%; /* Sesuaikan lebar ini dengan kebutuhan Anda */
   max-width: 300px; /* Sesuaikan lebar ini dengan kebutuhan Anda */
   word-wrap: break-word;
@@ -11277,12 +11282,12 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("../assets/img/pendaftaran2.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
 section#contact .section-heading {
-  color: #fff;
+  color: #157347;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;

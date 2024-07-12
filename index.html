@@ -11,17 +11,23 @@
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!--AOS-->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/custom.css" rel="stylesheet" />
+        <link href="css/pelayanan.css" rel="stylesheet" />
+        <style>
+            .hidden-content {
+                display: none;
+            }
+        </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" >
             <div class="container">
                 <a class="img" href="#page-top"><img src="assets/img/logo.png" alt="..." /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,58 +51,105 @@
                 <div class="masthead-content">
                 <div class="masthead-subheading">UPTD PUSKESWAN ARJASARI</div>
                 <div class="masthead-heading text-uppercase">PELAYANAN KESEHATAN HEWAN</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+                <a class="btn button3 btn-xl text-uppercase" href="#services">Selengkapnya</a>
                 </div>
             </div>
         </header>
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Pelayanan</h2>
-                    <h3 class="section-subheading text-muted">Di bagian Pelayanan Puskesmas Hewan kami, kami menyediakan berbagai layanan kesehatan untuk hewan kesayangan Anda. 
-                        Mulai dari pemeriksaan kesehatan rutin, vaksinasi, hingga penanganan medis yang mendalam, tim profesional kami siap membantu menjaga kesehatan dan kesejahteraan hewan peliharaan Anda dengan penuh keahlian dan perhatian.</h3>
+         <!-- Services-->
+    <section class="page-section"  id="services" >
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase" data-aos="fade-up" data-aos-duration="3000">Pelayanan</h2>
+                <h3 class="section-subheading text-muted" data-aos="fade-up" data-aos-duration="3000">Di bagian Pelayanan Puskesmas Hewan kami, kami menyediakan berbagai layanan kesehatan untuk hewan kesayangan Anda. 
+                    Mulai dari pemeriksaan kesehatan rutin, vaksinasi, hingga penanganan medis yang mendalam, tim profesional kami siap membantu menjaga kesehatan dan kesejahteraan hewan peliharaan Anda dengan penuh keahlian dan perhatian.</h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="3000">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-icon"></i>
+                        <i class="fas fa-clock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Pelayanan Secara Aktif</h4>
+                    <p class="text-muted">Dibuatkan Jadwal Sesuai Rencana Setiap Akhir Bulan Juni.</p>
                 </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-clock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Pelayanan Secara Aktif</h4>
-                        <p class="text-muted">Dibuatkan Jadwal Sesuai Rencana Setiap Akhir Bulan Juni.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-paw fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Pelayanan Pasif</h4>
-                        <p class="text-muted">Pelayanan Kesehatan Hewan Di Puskeswan dan Pustu Puskeswan.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Pelayanan Semi Aktif</h4>
-                        <p class="text-muted">Pelayanan Menunggu Laporan Baik Lisan Maupun Telepon.</p>
-                    </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="3000">
+                    <span class="fa-stack fa-4x" data-aos="fade-up">
+                        <i class="fas fa-circle fa-stack-2x text-icon"></i>
+                        <i class="fas fa-paw fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Pelayanan Pasif</h4>
+                    <p class="text-muted">Pelayanan Kesehatan Hewan Di Puskeswan dan Pustu Puskeswan.</p>
                 </div>
-                <div class="text-center mt-4">
-                    <button class="btn btn-primary" onclick="window.location.href='pelayanan.html'">See More</button>
-                </div>                
-            </div>            
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="3000">
+                    <span class="fa-stack fa-4x" >
+                        <i class="fas fa-circle fa-stack-2x text-icon"></i>
+                        <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Pelayanan Semi Aktif</h4>
+                    <p class="text-muted">Pelayanan Menunggu Laporan Baik Lisan Maupun Telepon.</p>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <div class="button3" data-aos="fade-up" data-aos-duration="3000" onclick="showContent()">See More</div>
+            </div>                
+        </div> 
+                   
+    </section>
+    
+
+    <!-- Hidden Content -->
+    <div id="hiddenContent" class="hidden-content">
+        <section>
+            <h2>SOP Pemeriksaan Hewan di Puskeswan</h2>
+            <ol>
+                <li>Klien mengisi formulir pendaftaran</li>
+                <li>Admin/resepsionis mengisi lembar ambulatoir/rekam medik (nama, jenis, ras, jenis kelamin, umur, anamnesa, signalement, diagnosa serta terapi yang diberikan) kemudian diserahkan ke dokter</li>
+                <li>Pasien diperiksa oleh dokter hewan dibantu paramedis yang bertugas di ruang poliklinik atau ruang periksa</li>
+                <li>Pertama dilakukan Anamnesa terhadap klien untuk membantu pemeriksaan fisik</li>
+                <li>Dokter dan asisten dokter mengenakan glove dan masker wajah saat melakukan pemeriksaan</li>
+                <li>Penimbangan dan pengukuran suhu dilakukan oleh paramedis</li>
+                <li>Pemeriksaan fisik dimulai dari inspeksi keadaan umum hewan, palpasi, kemudian auskultasi, pemeriksaan membran mukosa, mata, telinga, kulit, ekstremitas, ritme jantung, dan frekuensi nafas</li>
+                <li>Apabila hasil pemeriksaan fisik masih diragukan untuk diagnosa penyakit, maka dilakukan pemeriksaan lanjutan diantaranya pemeriksaan darah, test kit, USG, dan X-ray.</li>
+                <li>Apabila diagnosa penyakit sudah diketahui, maka dokter hewan bertugas akan memberikan terapi dan pengobatan yang dibutuhkan oleh hewan.</li>
+                <li>Dokter hewan akan menuliskan resep obat yang dapat ditebus oleh pemilik hewan ke apotik apabila diperlukan obat untuk rawat jalan</li>
+                <li>Edukasi klien juga diberikan oleh dokter hewan kepada pemilik hewan mengenai status penyakit (prognosa) yang diderita hewannya</li>
+            </ol>
         </section>
+        <section>
+            <h2>Sasaran Pelayanan</h2>
+            <ul>
+                <li>Kelompok ternak</li>
+                <li>Perusahaan ternak</li>
+                <li>KUD peternak / koprasi peternakan</li>
+                <li>Masyarakat umum yang memiliki ternak</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Layanan</h2>
+            <ul>
+                <li>Surat keterangan kesehatan hewan (SKKH)</li>
+                <li>Konsultasi kesehatan hewan</li>
+                <li>Pengobatan hewan</li>
+                <li>Vaksinasi rabies</li>
+                <li>Pelayanan ternak keliling</li>
+                <li>Operasi kastras</li>
+            </ul>
+            <button class="btn btn-primary" onclick="hideContent()">hide</button>
+        </section>
+    </div>
         <!-- Portfolio Grid-->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Penghargaan</h2>
-                    <h3 class="section-subheading text-muted">Mencantumkan penghargaan-penghargaan bergengsi yang diterima oleh Puskesmas Hewan.</h3>
+                    <h2 class="section-heading text-uppercase" data-aos="fade-up"
+                    data-aos-duration="3000">Penghargaan</h2>
+                    <h3 class="section-subheading text-muted" data-aos="fade-up"
+                    data-aos-duration="3000">Mencantumkan penghargaan-penghargaan bergengsi yang diterima oleh Puskesmas Hewan.</h3>
                 </div>
                 <div class="card-container">
-                    <div class="card">
+                    <div class="card" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                         <div class="card-img-container">
                             <img src="assets/img/penghargaan/p1.png" alt="Card Image" class="card-img">
                         </div>
@@ -108,7 +161,9 @@
                             <button class="toggle-button">Lihat Selengkapnya</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                         <div class="card-img-container">
                             <img src="assets/img/penghargaan/p2.png" alt="Card Image" class="card-img">
                         </div>
@@ -120,7 +175,8 @@
                             <button class="toggle-button">Lihat Selengkapnya</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card"  data-aos="fade-up"
+                    data-aos-duration="3000">
                         <div class="card-img-container">
                             <img src="assets/img/penghargaan/p3.png" alt="Card Image" class="card-img">
                         </div>
@@ -139,9 +195,12 @@
         <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Profil</h2>
+                    <h2 class="section-heading text-uppercase"  data-aos="fade-up" data-aos-duration="3000">Profil</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
+                <div data-aos="flip-left"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="3000">
                 <div class="vision-mission">
                     <h3>Visi dan Misi Kabupaten Bandung</h3>
                     <h4>Visi</h4>
@@ -155,6 +214,10 @@
                         <li>Meningkatkan kesejahteraan masyarakat dengan prinsip keadilan dan keberpihakan pada kelompok masyarakat lemah</li>
                     </ol>
                 </div>
+            </div>
+            <div data-aos="flip-left"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="3000">
                 <div class="tupoksi">
                     <h3>Tugas Pokok dan Fungsi</h3>
                     <h4>Paragraf 10 UPTD Pusat Kesehatan Hewan dan Laboratorium Pasal 355</h4>
@@ -175,6 +238,10 @@
                         <li>Pelaksanaan koordinasi pelayanan dan pengembangan pusat kesehatan hewan dan laboratorium dengan sub unit kerja Iain di Lingkungan Dinas</li>
                     </ol>
                 </div>
+                </div>
+                <div data-aos="flip-right"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="3000">
                 <div class="petugas">
                     <h3>Profil Petugas Puskeswan Arjasari</h3>
                     <div class="petugas-card-container">
@@ -218,12 +285,35 @@
                         </div>
                     </div>
                 </div>
+                </div>
+                <div data-aos="flip-up" data-aos-duration="3000">
                 <div class="organigram">
                     <h3>Struktur Organisasi</h3>
                     <div class="gambar-organigram">
-                        <img src="assets/img/struktur.png" alt="Struktur Organisasi" />
+                        <div class="org-chart">
+                            <ul>
+                                <li>
+                                    <div>UPTD Puskeswan Arjasari</div>
+                                    <ul>
+                                        <li>
+                                            <div>Drh. Nur Azizah Rahman<br>Koordinator</div>
+                                            <ul>
+                                                <li>
+                                                    <div>Bpk. Aep Tatang Rohmana<br>Paramedik veteriner</div>
+                                                </li>
+                                                <li>
+                                                    <div>Bpk. Fiter Faisal<br>Paramedik veteriner</div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>                
+                </div>
+            </div>
+            <div data-aos="flip-down" data-aos-duration="3000">            
                 <div class="dasar-hukum">
                     <h3>Dasar Hukum</h3>
                     <p>
@@ -239,52 +329,81 @@
                     </p>
                 </div>
             </div>
+        </div> 
         </section>
-        <!-- Team-->
-        <section class="gallery" id="galeri">
+        <!-- galeri-->
+        <section class="page-section" id="galeri">
             <div class="container">
-                <h2 class="section-title">Galeri</h2>
-                <div class="gallery-grid">
-                    <div class="gallery-item">
-                        <img src="assets/img/gallery/1.png" alt="Image 1">
+                <h2 class="  section-title text-center">Galeri</h2>
+                <div class="card-container">
+                    <div class="animation-card">
+                        <div class="bg" >
+                            <img src="assets/img/gallery/1.png"  alt="Image 1">
+                        </div>
+                        <div class="blob"></div>
                     </div>
-                    <div class="gallery-item">
-                        <img src="assets/img/gallery/2.png" alt="Image 2">
+                    <div class="animation-card">
+                        <div class="bg">
+                            <img src="assets/img/gallery/2.png"  alt="Image 2">
+                        </div>
+                        <div class="blob"></div>
                     </div>
-                    <div class="gallery-item">
-                        <img src="assets/img/gallery/3.png" alt="Image 3">
+                    <div class="animation-card">
+                        <div class="bg">
+                            <img src="assets/img/gallery/3.png"  alt="Image 3">
+                        </div>
+                        <div class="blob"></div>
                     </div>
+                   
                 </div>
             </div>
         </section>
         <!-- Contact-->
-        <section class="page-section" id="contact">
+        <section class="page-section">
             <div class="container">
+                <div class="pendaftaran">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Pendaftaran</h2>
                     <h3 class="section-subheading text-muted">Klik Tombol Dibawah Jika Ingin Melakukan Pendaftaran</h3>
-                    <a class="btn btn-primary btn-xl text-uppercase" href="halaman-daftar.html">Daftar Sekarang</a>
-                </div>                
+                    <div class="button3 text-uppercase" href="halaman-daftar.html">Daftar Sekarang</div>
+                </div>  
+            </div>              
             </div>
         </section>
         <!--Address-->
-        <section class="page-section" id="address">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Alamat</h2>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <img src="assets/img/lokasi.jpg" alt="Lokasi Puskesmas" class="img-fluid">
-                    </div>
-                    <div class="col-lg-6">
-                        <h4>UPT Pusat Kesehatan Hewan (Puskeswan) Arjasari</h4>
-                        <p>Jl. M. Adikarta No.36, Wargaluyu, Kec. Arjasari, Kabupaten Bandung, Jawa Barat</p>
-                        <a href="https://g.co/kgs/WKsY8ny" target="_blank">Lihat di Google Maps</a>
+<section class="page-section" id="address">
+    <div class="container">
+        <div class="address">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Alamat</h2>
+            <p class="text-muted">Temukan lokasi kami dengan mudah</p>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="card shadow-sm border-0">
+                    <div class="address-animation">
+                        <div class="address-bg" >
+                        <img src="assets/img/lokasi.jpg" alt="Lokasi Puskesmas" class="img-fluid rounded">
+                        </div>
+                        <div class="address-blob"></div>
                     </div>
                 </div>
             </div>
-        </section>
+            <div class="col-lg-6">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                        <h4 class="card-title">UPT Pusat Kesehatan Hewan (Puskeswan) Arjasari</h4>
+                        <p class="card-text">Jl. M. Adikarta No.36, Wargaluyu, Kec. Arjasari, Kabupaten Bandung, Jawa Barat</p>
+                        <a href="https://g.co/kgs/WKsY8ny" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-map-marker-alt"></i> Lihat di Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>  
+    </div>
+</section>
               
         <!-- Footer-->
         <footer class="footer py-4">
@@ -515,13 +634,36 @@
             </div>
         </div>
         <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <!--data AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+         AOS.init({
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1000, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: true, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+    });
+      </script>
+    <script>
+        function showContent() {
+            document.getElementById('hiddenContent').style.display = 'block';
+            document.getElementById('services').scrollIntoView({ behavior: 'smooth' });
+        }
+        function hideContent() {
+            document.getElementById('hiddenContent').style.display = 'none';
+            document.getElementById('services').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
     </body>
 </html>
