@@ -79,15 +79,14 @@
     position: relative;
     overflow: hidden;
     z-index: 1;
-    color: white;
+    color: #090909;
     border: none;
     padding: 0.5em 1em;
     font-size: 1em;
     border-radius: 5px;
     cursor: pointer;
-    background: #157347;
+    background: #e8e8e8;
     border: 1px solid #e8e8e8;
-    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px
 }
 
 .toggle-button:active{
@@ -118,7 +117,7 @@
     top: 180%;
     width: 160%;
     height: 190%;
-    background-color: #009087;
+    background-color: #157347;
     border-radius: 50%;
     display: block;
     transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
@@ -127,18 +126,18 @@
 
 .toggle-button:hover {
     color: #ffffff;
-    border: 1px solid #009087;
+    border: 1px solid #157347;
 }
 
 .toggle-button:hover::before{
     top: -35%;
-    background-color: #009087;
+    background-color: #157347;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
  
 }
 .toggle-button:hover::after{
     top: -45%;
-    background-color: #009087;
+    background-color: #157347;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
   
 }
@@ -271,7 +270,7 @@
 }
 
 .tupoksi h5 {
-    color: #333;
+    color: #157347;
     font-size: 1.3em;
     margin-bottom: 10px;
 }
@@ -586,7 +585,7 @@
     top: 180%;
     width: 160%;
     height: 190%;
-    background-color: #009087;
+    background-color: #157347;
     border-radius: 50%;
     display: block;
     transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
@@ -595,18 +594,18 @@
   
   .button3:hover {
     color: #ffffff;
-    border: 1px solid #009087;
+    border: 1px solid #157347;
   }
   
   .button3:hover:before {
     top: -35%;
-    background-color: #009087;
+    background-color: #157347;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
   }
   
   .button3:hover:after {
     top: -45%;
-    background-color: #009087;
+    background-color: #157347;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
   }
   

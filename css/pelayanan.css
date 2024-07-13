@@ -28,7 +28,82 @@ section {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+.sop{
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    cursor: pointer;
+  transition: all 0.5s;
+}
 
+.sop:hover{
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+
+.sop h2{
+    color: #157347;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.target{
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    cursor: pointer;
+  transition: all 0.5s;
+}
+
+.target:hover{
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+
+.target h2{
+    color: #157347;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.layanan{
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    cursor: pointer;
+  transition: all 0.5s;
+}
+
+.layanan:hover{
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+
+.layanan h2{
+    color: #157347;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
 h2 {
     color: black;
     /* border-bottom: 2px solid #ffc800; */
