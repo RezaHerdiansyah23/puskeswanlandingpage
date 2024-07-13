@@ -68,3 +68,32 @@
             });
         });
     });
+
+    function showContent() {
+        document.getElementById('hiddenContent').style.display = 'block';
+        document.querySelector('#services .button3').style.display = 'none';
+    }
+
+    function hideContent() {
+        document.getElementById('hiddenContent').style.display = 'none';
+        document.querySelector('#services .button3').style.display = 'block';
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var profileDropdownItems = document.querySelectorAll('.dropdown-item');
+        
+        profileDropdownItems.forEach(function(item) {
+            item.addEventListener('click', function(event) {
+                var targetId = this.getAttribute('href').substring(1);
+                var targetElement = document.getElementById(targetId);
+                
+                if (targetElement) {
+                    event.preventDefault();
+                    window.scrollTo({
+                        top: targetElement.offsetTop - document.querySelector('.navbar').offsetHeight,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    });
